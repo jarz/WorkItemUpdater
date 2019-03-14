@@ -8,12 +8,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const tl = require("vsts-task-lib/task");
+const tl = require("azure-pipelines-task-lib/task");
 const settings_1 = require("./settings");
-const WebApi_1 = require("vso-node-api/WebApi");
-const VSSInterfaces_1 = require("vso-node-api/interfaces/common/VSSInterfaces");
-const WorkItemTrackingInterfaces_1 = require("vso-node-api/interfaces/WorkItemTrackingInterfaces");
-const ReleaseInterfaces_1 = require("vso-node-api/interfaces/ReleaseInterfaces");
+const WebApi_1 = require("azure-devops-node-api/WebApi");
+const VSSInterfaces_1 = require("azure-devops-node-api/interfaces/common/VSSInterfaces");
+const WorkItemTrackingInterfaces_1 = require("azure-devops-node-api/interfaces/WorkItemTrackingInterfaces");
+const ReleaseInterfaces_1 = require("azure-devops-node-api/interfaces/ReleaseInterfaces");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
